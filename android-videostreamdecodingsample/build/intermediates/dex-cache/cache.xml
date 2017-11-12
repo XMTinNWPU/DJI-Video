@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\5388b1e62b8151af3a078f9bfb0be12209fbc7c8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ff25f6c5884cfd920e5362baed8782d1a4515ed1">
+        <dex dex="F:\Book\Android-VideoStreamDecodingSample-master\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\build\intermediates\transforms\dex\debug\folders\1000\10\classes_794d220862246fd6d55c4474301c096c3e1d5338\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\5388b1e62b8151af3a078f9bfb0be12209fbc7c8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ff25f6c5884cfd920e5362baed8782d1a4515ed1">
+        <dex dex="F:\Book\Android-VideoStreamDecodingSample-master\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\build\intermediates\pre-dexed\debug\classes_794d220862246fd6d55c4474301c096c3e1d5338.jar" />
+    </item>
+
+</items>

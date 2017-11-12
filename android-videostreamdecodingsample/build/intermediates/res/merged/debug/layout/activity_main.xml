@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dji.videostreamdecodingsample.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/main_title_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/title_dark">
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white"
+            android:text="@string/title_main_activity"
+            android:textSize="21sp"/>
+
+    </RelativeLayout>
+
+    <TextureView
+        android:id="@+id/livestream_preview_ttv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:alpha="50"
+        android:visibility="visible"
+        android:layout_below="@id/main_title_rl"/>
+
+    <SurfaceView
+        android:id="@+id/livestream_preview_sf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_below="@id/main_title_rl"/>
+    <TextView
+        android:id="@+id/activity_main_screen_shot"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Video"
+        android:padding="5dp"
+        android:gravity="center"
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorBlack"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/main_title_rl"
+        />
+    <TextView
+        android:id="@+id/activity_main_save_path"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/main_title_rl"
+        android:textColor="@color/colorWhite"
+        android:visibility="invisible"
+        />
+
+    <EditText
+        android:ems="10"
+        android:id="@+id/logs_edit"
+
+        android:scrollbars="vertical"
+        android:layout_width="100dp"
+        android:layout_height="300dp"
+        android:inputType="textMultiLine"
+        android:layout_below="@+id/activity_main_screen_shot"
+        android:text="TextView"
+
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorBlack"/>
+    <TextView
+        android:id="@+id/pitch"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="pitch"
+        android:padding="5dp"
+        android:gravity="center"
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorBlack"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/main_title_rl"
+        />
+    <TextView
+        android:id="@+id/yaw"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="yaw"
+        android:padding="5dp"
+        android:gravity="center"
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorBlack"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/pitch"
+        />
+    <TextView
+        android:id="@+id/roll"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="roll"
+        android:padding="5dp"
+        android:gravity="center"
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorBlack"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/yaw"
+        />
+
+</RelativeLayout>
